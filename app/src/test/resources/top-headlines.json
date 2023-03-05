@@ -1,0 +1,110 @@
+{
+  "status": "ok",
+  "totalResults": 8,
+  "articles": [
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Alex Murdaugh trial: juror dismissed for 'improper' conversations",
+      "description": "One of the jurors in the high-profile murder trial of Alex Murdaugh spoke to people outside the case.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64828605",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5855/production/_128831622_d78001cc7ab2daa9bf0144663c05f5bad6408987.png",
+      "publishedAt": "2023-03-02T17:52:19.637784Z",
+      "content": "Media caption, Watch: Four dramatic moments from Alex Murdaugh trial\r\nA juror in the high-profile US trial of a former lawyer accused of killing his wife and son has been dismissed for having \"improp… [+1655 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "California judge faces review for handcuffing 13-year-old in court",
+      "description": "The daughter of a defendant was warned she'd 'wind up in cuffs' if she ever turned to drugs and crime.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64827667",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8479/production/_128831933_gettyimages-941029696.jpg",
+      "publishedAt": "2023-03-02T17:22:27.3251574Z",
+      "content": "A California judge is facing a misconduct complaint after a 13-year-old was handcuffed and questioned in his courtroom. \r\nAt the time, the girl's father was appearing before US District Judge Roger B… [+2254 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Greece train crash: 57 people confirmed dead as public anger grows",
+      "description": "A coroner told the BBC that DNA had been collected from 57 intact bodies.",
+      "url": "http://www.bbc.co.uk/news/world-europe-64820085",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C578/production/_128825505_train-index-reuters.jpg",
+      "publishedAt": "2023-03-02T17:22:24.1998433Z",
+      "content": "The death toll from Tuesday's train crash in Greece has increased to 57, a coroner has told the BBC. \r\nEleni Zaggelidou, one of ten coroners working on the investigation, said DNA had been taken from… [+5564 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Egypt: Hidden corridor in Great Pyramid of Giza seen for first time",
+      "description": "An endoscope was used to film inside the 9m-long space, whose purpose is still unknown.",
+      "url": "http://www.bbc.co.uk/news/world-middle-east-64825526",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17131/production/_128831549_mediaitem128831548.jpg",
+      "publishedAt": "2023-03-02T15:52:16.3418707Z",
+      "content": "Egyptian antiquities officials say they have confirmed the existence of a hidden internal corridor above the main entrance of the Great Pyramid of Giza.\r\nVideo from an endoscope showed the inside of … [+2468 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "A place to exercise your brain? Introducing mental health gyms",
+      "description": "Mental health gyms devoted to brain exercises like meditation and journaling are popping up across the US.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64042267",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AB34/production/_128082834_davidmccullar.jpg",
+      "publishedAt": "2023-03-02T15:22:21.3877777Z",
+      "content": "When 42-year-old David McCullar thinks back to the early 2000s, a chapter in his life marked by rapid changes, he recalls palm trees, sunny beaches - and panic attacks that made him ill.\r\n\"I was thro… [+6258 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Californians snowed in by winter storm surge",
+      "description": "Rescue crews are scrambling to dig out residents before roofs collapse, while Yosemite National Park is closed.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64821309",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2EC4/production/_128827911_gettyimages-1247599094.jpg",
+      "publishedAt": "2023-03-02T14:52:19.262358Z",
+      "content": "Millions of California residents are under a freeze warning with a state of emergency declared in over a dozen counties to deal with the wrath of a string of brutal winter storms.\r\nRescue crews are w… [+2847 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Blinken and Lavrov meet for first time since invasion",
+      "description": "The top US diplomat Antony Blinken tells his Russian counterpart the US will keep supporting Ukraine.",
+      "url": "http://www.bbc.co.uk/news/world-asia-india-64825198",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CD02/production/_128828425_gettyimages-1242312962.jpg",
+      "publishedAt": "2023-03-02T13:22:21.5604434Z",
+      "content": "US Secretary of State Antony Blinken has told his Russian counterpart the US will support Ukraine \"for as long as it takes\". \r\nMr Blinken met briefly with Russian Foreign Minister Sergei Lavrov on th… [+788 chars]"
+    },
+    {
+      "source": {
+        "id": "bbc-news",
+        "name": "BBC News"
+      },
+      "author": "BBC News",
+      "title": "Man arrested after explosive found in luggage at US airport",
+      "description": "The device, detected in screening at a Pennsylvania airport, \"posed a significant risk to the aircraft\".",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-64819964",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4990/production/_128823881_97eb0fd22f893b8b7e9fbd63ef822a88c21d30ab0_0_1326_1636811x1000.jpg",
+      "publishedAt": "2023-03-02T03:52:16.1374741Z",
+      "content": "FBI agents have arrested a man who allegedly brought an explosive device to a Pennsylvania airport on Monday. \r\nMark Muffley, 40, is accusing of putting the device in his checked bag for a flight to … [+1849 chars]"
+    }
+  ]
+}

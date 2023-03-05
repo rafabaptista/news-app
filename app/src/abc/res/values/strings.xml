@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ABC News</string>
+    <string name="param_app_source">abc-news</string>
+</resources>

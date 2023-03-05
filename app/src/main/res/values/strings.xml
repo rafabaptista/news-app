@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="photo_description">Photo</string>
+    <string name="back_button_description">Button back</string>
+
+    <string name="message_error_loading_news">We\'re sorry, we could not load the News. Please try again in a few moments.</string>
+    <string name="message_empty_news">No News to show</string>
+    <string name="message_biometrics_fail">Fingerprint authentication failed</string>
+    <string name="message_biometrics_error">Fingerprint Authentication error</string>
+    <string name="message_biometrics_success">Fingerprint Authentication Succeed</string>
+    <string name="biometric_title">Biometric login for News App</string>
+    <string name="biometric_subtitle">Use your Fingerprint to authenticate</string>
+    <string name="biometric_cancel">Cancel</string>
+
+    <!-- Non translatable -->
+    <string name="param_transition_headline_image" translatable="false">image</string>
+    <string name="param_transition_headline_title" translatable="false">title</string>
+
+    <string name="param_app_source">us</string>
+</resources>

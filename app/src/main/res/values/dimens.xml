@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spaces -->
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="space_cards">24dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+
+    <!-- Card -->
+    <dimen name="elevation_card">2dp</dimen>
+
+    <!-- Fonts -->
+    <dimen name="font_title">28sp</dimen>
+    <dimen name="font_body">16sp</dimen>
+    <dimen name="font_app_message_screen">42sp</dimen>
+</resources>
