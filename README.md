@@ -1,10 +1,10 @@
 # News App
 
-This repo is a personal template for future projects following the principles of the clean architecture using MVVM. 
-It integrates the Flicker api, and display random dog images fom Flicker. It still under development...
+This repo is a personal template for future projects following the principles of the clean architecture using MVVM.
+It integrates the News API, and display a list of News based on Source...
 
 
-* minSdkVersion: 23
+* minSdkVersion: 30
 * targetSdkVersion: 33
 
 ## Dependencies:
@@ -12,16 +12,14 @@ It integrates the Flicker api, and display random dog images fom Flicker. It sti
 * AndroidX
 * Retrofit
 * Koin
-* RxJava
-* Glide
+* Rx
 * Gson
 * Picasso
-* Touch Image
 * Swipe Refresh Layout
 * JUnit 4
 * Mockito
+* Android Biometrics
+* Espresso
 
 ## References
-* https://www.flickr.com/services/api/
-* https://github.com/gabriellferreira/BaseCleanProject
-* https://medium.com/@fabioCollini/testing-asynchronous-rxjava-code-using-mockito-8ad831a16877
+* https://newsapi.org
