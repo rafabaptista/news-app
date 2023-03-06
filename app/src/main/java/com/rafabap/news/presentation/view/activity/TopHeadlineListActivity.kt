@@ -35,7 +35,6 @@ class TopHeadlineListActivity : BaseActivity(),
 
     private val viewModel: TopHeadlineViewModel by inject()
     private var loadingMore = false
-    //private var source = "bbc-news"
     private var hasAuthenticated = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,11 +53,9 @@ class TopHeadlineListActivity : BaseActivity(),
         initiateObservers()
         val source = getString(R.string.param_app_source)
         viewModel.loadTopHeadlineArticles(source)
-
         binding.run {
             appMessageScreen.hide()
             newsContent.show()
-
         }
     }
 
@@ -78,7 +75,6 @@ class TopHeadlineListActivity : BaseActivity(),
                 finishSetup()
             }
         }
-
     }
 
     private fun showBiometricAuthentication() {
@@ -148,16 +144,15 @@ class TopHeadlineListActivity : BaseActivity(),
                 }
                 NetworkState.NetworkStateStatus.EMPTY -> {
                     showAppMessageScreen(getString(R.string.message_empty_news))
-                    stopRefreshing()
                 }
                 else -> {
                     stopRefreshing()
                 }
             }
         }
-        observe(viewModel.articleList) {
-            it?.let { articleList ->
-                onReceiveArticles(articleList)
+        observe(viewModel.articleList) { articleList ->
+            articleList?.let {
+                onReceiveArticles(it)
             }
         }
     }
@@ -172,12 +167,16 @@ class TopHeadlineListActivity : BaseActivity(),
     }
 
     private fun onReceiveArticles(articleList: List<Article>) {
-        val sourceName = viewModel.getSourceName()
-        binding.sourceNameHeadline.text = sourceName
-        articleListAdapter.submitList(articleList)
-        binding.run {
-            newsContent.show()
-            appMessageScreen.hide()
+        if (articleList.isNotEmpty()) {
+            val sourceName = viewModel.getSourceName()
+            binding.sourceNameHeadline.text = sourceName
+            articleListAdapter.submitList(articleList)
+            binding.run {
+                newsContent.show()
+                appMessageScreen.hide()
+            }
+        } else {
+            showAppMessageScreen(getString(R.string.message_empty_news))
         }
     }
 

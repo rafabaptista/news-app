@@ -16,7 +16,7 @@ class BaseApi: IBaseApi {
 
     companion object {
         private const val API_TIMEOUT_SECONDS = 30
-        private const val API_KEY = "48ce005846bb4c5eb972bb87b4e12e49" //TODO extract to external buildconfig
+        private const val API_KEY = "48ce005846bb4c5eb972bb87b4e12e49" //TODO: extract to external buildconfig, this is used as this for study purposes only
         private const val BASE_URL = "https://newsapi.org/v2/"
     }
 
