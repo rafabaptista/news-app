@@ -18,8 +18,7 @@ It integrates the News API, and display a list of News based on Source...
 * Swipe Refresh Layout
 * JUnit 4
 * Mockito
-* Android Biometrics
-* Espresso
+* Biometrics
 
 ## References
 * https://newsapi.org

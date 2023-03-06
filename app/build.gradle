@@ -79,8 +79,6 @@ dependencies {
 
     //Image
     implementation "com.squareup.picasso:picasso:$picasso_version"
-    implementation "com.github.MikeOrtiz:TouchImageView:$touch_image_version"
-    implementation "com.airbnb.android:lottie:$lottie_version"
 
     //Rx
     implementation "io.reactivex.rxjava3:rxandroid:$rxAndroid_version"
