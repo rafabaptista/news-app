@@ -7,8 +7,6 @@ import io.reactivex.rxjava3.core.Single
 class TopHeadlineRepository(private val newsApiRestClient: NewsApi) : ITopHeadlineRepository {
 
     override fun getTopHeadlineNews(source: String): Single<List<ArticleResponse>> {
-        return newsApiRestClient.getTopHeadlineNews(source).map { articles ->
-            articles.sortedByDescending { it.publishedAt }
-        }
+        return newsApiRestClient.getTopHeadlineNews(source)
     }
 }

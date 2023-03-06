@@ -10,8 +10,8 @@ class TopHeadlineUseCase(private val repository: ITopHeadlineRepository,
 
     fun fetchTopHeadlineNews(source: String): Single<List<Article>> {
         return repository.getTopHeadlineNews(source)
-            .map {
-                articleMapper.map(it)
+            .map { response ->
+                articleMapper.map(response).sortedByDescending { it.publishedAt }
             }
             .subscribeOn(subscribeScheduler)
             .observeOn(observeScheduler)
