@@ -8,12 +8,12 @@
         "name": "BBC News"
       },
       "author": "BBC News",
-      "title": "Alex Murdaugh trial: juror dismissed for 'improper' conversations",
-      "description": "One of the jurors in the high-profile murder trial of Alex Murdaugh spoke to people outside the case.",
-      "url": "http://www.bbc.co.uk/news/world-us-canada-64828605",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5855/production/_128831622_d78001cc7ab2daa9bf0144663c05f5bad6408987.png",
+      "title": "Mocked Test Json title",
+      "description": "Mocked Test Json description",
+      "url": "http://test.url",
+      "urlToImage": "https://test-image.url.png",
       "publishedAt": "2023-03-02T17:52:19.637784Z",
-      "content": "Media caption, Watch: Four dramatic moments from Alex Murdaugh trial\r\nA juror in the high-profile US trial of a former lawyer accused of killing his wife and son has been dismissed for having \"improp… [+1655 chars]"
+      "content": "Mocked Test Json content"
     },
     {
       "source": {

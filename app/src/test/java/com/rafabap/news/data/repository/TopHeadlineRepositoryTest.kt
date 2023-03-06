@@ -36,7 +36,6 @@ class TopHeadlineRepositoryTest {
         content = "content"
     )
 
-    @Suppress("DEPRECATION")
     @Before
     fun setup() {
         MockitoAnnotations.initMocks(this)

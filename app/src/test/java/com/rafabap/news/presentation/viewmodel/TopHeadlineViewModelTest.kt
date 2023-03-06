@@ -14,6 +14,7 @@ import org.koin.test.inject
 import org.mockito.ArgumentMatchers.anyString
 import org.mockito.MockitoAnnotations
 import kotlin.test.assertEquals
+import kotlin.test.assertNotNull
 
 class TopHeadlineViewModelTest : BaseTest() {
 
@@ -35,8 +36,28 @@ class TopHeadlineViewModelTest : BaseTest() {
 
         viewModel.loadTopHeadlineArticles(anyString())
 
-        assertEquals(8, viewModel.articleList.getOrAwaitValue()?.size)
-        assertEquals(NetworkState.NetworkStateStatus.SUCCESS, viewModel.networkState.getOrAwaitValue()?.status)
+        val testData = viewModel.articleList.getOrAwaitValue()
+        assertNotNull(testData)
+        assert(testData.isNotEmpty())
+        assertEquals(8, testData.size)
+
+        val testDataItem = testData.first()
+        assertNotNull(testDataItem)
+        assertEquals("BBC News", testDataItem.author)
+        assertEquals("Mocked Test Json title", testDataItem.title)
+        assertEquals(true, testDataItem.hasDescription)
+        assertEquals("Mocked Test Json description", testDataItem.description)
+        assertEquals("http://test.url", testDataItem.url)
+        assertEquals(true, testDataItem.hasImageUrl)
+        assertEquals("https://test-image.url.png", testDataItem.urlToImage)
+        assertEquals("2023-03-02T17:52:19.637784Z", testDataItem.publishedAt)
+        assertEquals(true, testDataItem.hasContent)
+        assertEquals("Mocked Test Json content", testDataItem.content)
+
+        val testNetworkStatus = viewModel.networkState.getOrAwaitValue()
+        assertNotNull(testNetworkStatus)
+        assertEquals(NetworkState.NetworkStateStatus.SUCCESS, testNetworkStatus.status)
+
         assertEquals(viewModel.getSourceName(), "BBC News")
     }
 
@@ -53,8 +74,15 @@ class TopHeadlineViewModelTest : BaseTest() {
 
         viewModel.loadTopHeadlineArticles(anyString())
 
-        assertEquals(0, viewModel.articleList.getOrAwaitValue()?.size)
-        assertEquals(NetworkState.NetworkStateStatus.ERROR, viewModel.networkState.getOrAwaitValue()?.status)
+        val testData = viewModel.articleList.getOrAwaitValue()
+        assertNotNull(testData)
+        assert(testData.isEmpty())
+        assertEquals(0, testData.size)
+
+        val testNetworkStatus = viewModel.networkState.getOrAwaitValue()
+        assertNotNull(testNetworkStatus)
+        assertEquals(NetworkState.NetworkStateStatus.ERROR, testNetworkStatus.status)
+
         assertEquals("", viewModel.getSourceName())
     }
 
@@ -64,8 +92,15 @@ class TopHeadlineViewModelTest : BaseTest() {
 
         viewModel.loadTopHeadlineArticles(anyString())
 
-        assertEquals(0, viewModel.articleList.getOrAwaitValue()?.size)
-        assertEquals(NetworkState.NetworkStateStatus.ERROR, viewModel.networkState.getOrAwaitValue()?.status)
+        val testData = viewModel.articleList.getOrAwaitValue()
+        assertNotNull(testData)
+        assert(testData.isEmpty())
+        assertEquals(0, testData.size)
+
+        val testNetworkStatus = viewModel.networkState.getOrAwaitValue()
+        assertNotNull(testNetworkStatus)
+        assertEquals(NetworkState.NetworkStateStatus.ERROR, testNetworkStatus.status)
+
         assertEquals("", viewModel.getSourceName())
     }
 
@@ -81,8 +116,15 @@ class TopHeadlineViewModelTest : BaseTest() {
 
         viewModel.loadTopHeadlineArticles(anyString())
 
-        assertEquals(0, viewModel.articleList.getOrAwaitValue()?.size)
-        assertEquals(NetworkState.NetworkStateStatus.EMPTY, viewModel.networkState.getOrAwaitValue()?.status)
+        val testData = viewModel.articleList.getOrAwaitValue()
+        assertNotNull(testData)
+        assert(testData.isEmpty())
+        assertEquals(0, testData.size)
+
+        val testNetworkStatus = viewModel.networkState.getOrAwaitValue()
+        assertNotNull(testNetworkStatus)
+        assertEquals(NetworkState.NetworkStateStatus.EMPTY, testNetworkStatus.status)
+
         assertEquals("", viewModel.getSourceName())
     }
 }
