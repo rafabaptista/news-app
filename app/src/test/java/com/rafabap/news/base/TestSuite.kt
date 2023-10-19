@@ -5,8 +5,8 @@ import com.rafabap.news.base.mock.MockedBaseApi
 import com.rafabap.news.base.mock.endpoint.EndpointMock
 import com.rafabap.news.data.network.api.IBaseApi
 import com.rafabap.news.data.network.api.NewsApi
-import com.rafabap.news.domain.repository.ITopHeadlineRepository
-import com.rafabap.news.domain.repository.TopHeadlineRepository
+import com.rafabap.news.data.repository.ITopHeadlineRepository
+import com.rafabap.news.data.repository.TopHeadlineRepository
 import com.rafabap.news.presentation.di.mapperModules
 import com.rafabap.news.presentation.di.useCaseModules
 import com.rafabap.news.presentation.di.viewModelModules
