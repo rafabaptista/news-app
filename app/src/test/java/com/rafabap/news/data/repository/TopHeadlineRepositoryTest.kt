@@ -7,7 +7,7 @@ import com.rafabap.news.data.model.ArticleResponse
 import com.rafabap.news.data.model.SourceResponse
 import com.rafabap.news.data.network.api.NewsApi
 import com.rafabap.news.data.repository.TopHeadlineRepository
-import com.rafabap.news.presentation.util.RxSchedulersOverrideRule
+import com.rafabap.news.common.util.RxSchedulersOverrideRule
 import io.reactivex.rxjava3.core.Single
 import org.junit.Before
 import org.junit.Rule

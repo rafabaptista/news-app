@@ -1,7 +1,7 @@
 package com.rafabap.news.base
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.rafabap.news.presentation.util.RxSchedulersOverrideRule
+import com.rafabap.news.common.util.RxSchedulersOverrideRule
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule

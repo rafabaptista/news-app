@@ -5,8 +5,8 @@ import com.rafabap.news.base.TestSuite
 import com.rafabap.news.base.mock.TestConstants
 import com.rafabap.news.base.mock.endpoint.ResponseHandler
 import com.rafabap.news.presentation.view.NetworkState
-import com.rafabap.news.presentation.view.viewmodel.TopHeadlineViewModel
-import com.rafabap.news.presentation.util.extension.getOrAwaitValue
+import com.rafabap.news.presentation.viewmodel.TopHeadlineViewModel
+import com.rafabap.news.common.util.extension.getOrAwaitValue
 import okhttp3.Request
 import org.junit.Before
 import org.junit.Test

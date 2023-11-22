@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.rafabap.news.R
 import com.rafabap.news.databinding.ActivityArticleBinding
 import com.rafabap.news.domain.model.Article
-import com.rafabap.news.presentation.util.extension.hide
-import com.rafabap.news.presentation.util.extension.show
+import com.rafabap.news.common.util.extension.hide
+import com.rafabap.news.common.util.extension.show
 import com.squareup.picasso.Picasso
 
 class ArticleActivity : AppCompatActivity() {

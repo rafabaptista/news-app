@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.ConcatAdapter
 import com.rafabap.news.R
 import com.rafabap.news.databinding.ActivityTopHeadlineListBinding
 import com.rafabap.news.domain.model.Article
-import com.rafabap.news.presentation.util.extension.hide
-import com.rafabap.news.presentation.util.extension.show
+import com.rafabap.news.common.util.extension.hide
+import com.rafabap.news.common.util.extension.show
 import com.rafabap.news.presentation.view.Navigation
 import com.rafabap.news.presentation.view.NetworkState
 import com.rafabap.news.presentation.view.adapter.ArticleListAdapter
-import com.rafabap.news.presentation.view.viewmodel.TopHeadlineViewModel
-import com.rafabap.news.presentation.view.viewmodel.TopHeadlineViewModel.Companion.ERROR_LOADING_NEWS
+import com.rafabap.news.presentation.viewmodel.TopHeadlineViewModel
+import com.rafabap.news.presentation.viewmodel.TopHeadlineViewModel.Companion.ERROR_LOADING_NEWS
 import org.koin.android.ext.android.inject
 import java.util.concurrent.Executor
 
