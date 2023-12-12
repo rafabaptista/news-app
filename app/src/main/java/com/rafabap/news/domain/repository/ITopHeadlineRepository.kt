@@ -1,4 +1,4 @@
-package com.rafabap.news.data.repository
+package com.rafabap.news.domain.repository
 
 import com.rafabap.news.data.model.ArticleResponse
 import com.rafabap.news.data.model.SourceResponse
